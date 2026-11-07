@@ -1,0 +1,10 @@
+{
+  "name": "cadastro-alunos",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Atividade EC01 — DevTech Academy",
+  "scripts": {
+    "start": "node server.js",
+    "test": "node --test tests/*.test.js"
+  }
+}
