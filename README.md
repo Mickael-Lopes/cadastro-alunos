@@ -7,12 +7,14 @@ Implementação dos quatro exercícios da atividade EC01, em HTML e JavaScript p
 Abra esta pasta no VS Code. Para usar o ambiente de desenvolvimento solicitado na atividade, instale e inicie o Docker Desktop e execute no terminal integrado:
 
 ```sh
-docker compose up --build
+docker compose up --build -d
 ```
 
-Acesse http://localhost:8080. Os arquivos locais são montados no container; depois de editar HTML ou JavaScript no VS Code, basta atualizar a página. Para encerrar, pressione Ctrl+C e execute `docker compose down`. As mesmas operações estão em **Terminal > Executar Tarefa**.
+Acesse http://localhost:3000. Os arquivos locais são montados no container; depois de editar HTML ou JavaScript no VS Code, basta atualizar a página. Para encerrar, execute `docker compose down`. As mesmas operações estão em **Terminal > Executar Tarefa**.
 
-Alternativa para conferir sem Docker: abra `index.html` no navegador ou execute `npm start` com Node.js instalado. Essa alternativa não substitui o requisito de desenvolvimento em container.
+### Se o Docker não iniciar
+
+Baixe a extensão go live no VS Code e inicie por ela. O usuário será redirecionado para a página da aplicação.
 
 ## O que foi implementado
 
